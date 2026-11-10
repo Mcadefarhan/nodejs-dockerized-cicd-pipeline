@@ -11,7 +11,7 @@ A full CI/CD pipeline for a Node.js web application. Every push to `main` is pic
 
 The app itself is **STRUT**, a men's accessories storefront (68 products across 7 categories) built with Express and vanilla JavaScript.
 
-The EC2 instance used for this project was shut down to avoid ongoing AWS costs. The screenshots below show the working deployment, and the whole setup can be recreated by following Set up the pipeline on EC2.
+> The EC2 instance used for this project was shut down to avoid ongoing AWS costs. The screenshots below show the working deployment, and the whole setup can be recreated by following [Set up the pipeline on EC2](#set-up-the-pipeline-on-ec2).
 
 ![STRUT homepage](docs/screenshots/01-homepage.png)
 
@@ -68,9 +68,9 @@ flowchart LR
 
 ## Screenshots
 
-Everything below was captured from the real deployment on AWS EC2, not from a local machine.
+Everything below was captured from the real deployment on AWS EC2 while it was running, not from a local machine.
 
-### 1. Homepage, live on AWS EC2
+### 1. Homepage, deployed on AWS EC2
 
 **What this shows:** The STRUT storefront opened in a browser through the EC2 instance's public IP on port 3001. The page is served by the Express app running inside a Docker container.
 
@@ -319,9 +319,9 @@ Real problems hit while building this project, and their fixes:
 
 ## Author
 
-**Farhan Kalim**
-[GitHub](https://github.com/Mcadefarhan) &nbsp;|&nbsp; _add your LinkedIn link_
+**Md Farhan Kalim**
+[GitHub](https://github.com/Mcadefarhan) &nbsp;|&nbsp; [LinkedIn](https://www.linkedin.com/in/md-farhan-kalim-9a8823325/)
 
 ---
 
-_This is a demo store built to practice and showcase CI/CD. Payments are not connected._ .
+_This is a demo store built to practice and showcase CI/CD. Payments are not connected._
