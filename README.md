@@ -11,7 +11,7 @@ A full CI/CD pipeline for a Node.js web application. Every push to `main` is pic
 
 The app itself is **STRUT**, a men's accessories storefront (68 products across 7 categories) built with Express and vanilla JavaScript.
 
-> **Live demo:** _add your URL here_ &nbsp;|&nbsp; **Pipeline walkthrough:** _optional: add a short Loom/YouTube link_
+The EC2 instance used for this project was shut down to avoid ongoing AWS costs. The screenshots below show the working deployment, and the whole setup can be recreated by following Set up the pipeline on EC2.
 
 ![STRUT homepage](docs/screenshots/01-homepage.png)
 
