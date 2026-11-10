@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000"><defs>
+<radialGradient id="bg" cx="50%" cy="38%" r="78%"><stop offset="0" stop-color="#F7F6F3"/><stop offset="1" stop-color="#E2E0DA"/></radialGradient>
+<filter id="blur" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="14"/></filter>
+<linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F4E0A0"/><stop offset=".5" stop-color="#C9A24D"/><stop offset="1" stop-color="#8A6524"/></linearGradient>
+<linearGradient id="silver" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FAFBFC"/><stop offset=".5" stop-color="#B4BAC2"/><stop offset="1" stop-color="#7C848E"/></linearGradient>
+<linearGradient id="steel" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#F4F6F8"/><stop offset=".35" stop-color="#AEB4BB"/><stop offset=".6" stop-color="#E9ECEF"/><stop offset="1" stop-color="#868D96"/></linearGradient>
+<linearGradient id="cg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c2b89f"/><stop offset="1" stop-color="#948a71"/></linearGradient><linearGradient id="bg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bdb398"/><stop offset="1" stop-color="#827963"/></linearGradient></defs><rect width="800" height="1000" fill="url(#bg)"/><g transform="translate(400,500) scale(1.12) translate(-400,-500)"><ellipse cx="410" cy="760" rx="300" ry="26" fill="#1b2230" opacity="0.3" filter="url(#blur)"/><path d="M160 590Q150 270 400 255Q650 262 660 590Z" fill="url(#cg)" stroke="#7b725d" stroke-width="3"/>
+<path d="M280 272Q250 430 265 592M520 272Q550 430 535 592M400 255V592" stroke="#7b725d" stroke-width="2.5" fill="none" opacity=".55"/>
+<circle cx="400" cy="256" r="15" fill="#90876e" stroke="#7b725d" stroke-width="2"/>
+<circle cx="330" cy="300" r="6" fill="#7b725d"/><circle cx="470" cy="300" r="6" fill="#7b725d"/>
+<path d="M160 590Q400 645 660 590" fill="none" stroke="#7b725d" stroke-width="3"/>
+<path d="M130 592Q400 650 670 592Q748 622 702 652Q400 712 98 652Q52 622 130 592Z" fill="url(#bg2)" stroke="#6c6552" stroke-width="3"/>
+<path d="M150 636Q400 690 650 636" fill="none" stroke="#cbc2ad" stroke-width="3" opacity=".5"/>
+
+<text x="400" y="460" text-anchor="middle" font-family="Georgia,serif" font-size="38" letter-spacing="6" fill="#d6cfbe">S T R U T</text></g></svg>

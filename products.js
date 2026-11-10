@@ -1,0 +1,703 @@
+module.exports = [
+ {
+  "id": 1,
+  "image": "/images/1.jpg",
+  "fallback": "/images/1.svg",
+  "name": "Boxy Heavy Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 899,
+  "tag": "Hot",
+  "query": "men navy t-shirt"
+ },
+ {
+  "id": 2,
+  "image": "/images/2.jpg",
+  "fallback": "/images/2.svg",
+  "name": "Graphic Drop Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 749,
+  "query": "men graphic t-shirt"
+ },
+ {
+  "id": 3,
+  "image": "/images/3.jpg",
+  "fallback": "/images/3.svg",
+  "name": "Essential Crew Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 599,
+  "query": "men white t-shirt"
+ },
+ {
+  "id": 4,
+  "image": "/images/4.jpg",
+  "fallback": "/images/4.svg",
+  "name": "Oversized Street Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 849,
+  "tag": "New",
+  "query": "men black t-shirt"
+ },
+ {
+  "id": 5,
+  "image": "/images/5.jpg",
+  "fallback": "/images/5.svg",
+  "name": "Henley Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 999,
+  "query": "men grey henley t-shirt"
+ },
+ {
+  "id": 6,
+  "image": "/images/6.jpg",
+  "fallback": "/images/6.svg",
+  "name": "Pocket Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 699,
+  "query": "men beige pocket t-shirt"
+ },
+ {
+  "id": 7,
+  "image": "/images/7.jpg",
+  "fallback": "/images/7.svg",
+  "name": "Classic Polo",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 1199,
+  "tag": "New",
+  "query": "men maroon polo t-shirt"
+ },
+ {
+  "id": 8,
+  "image": "/images/8.jpg",
+  "fallback": "/images/8.svg",
+  "name": "Washed Vintage Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 899,
+  "query": "men grey washed t-shirt"
+ },
+ {
+  "id": 9,
+  "image": "/images/9.jpg",
+  "fallback": "/images/9.svg",
+  "name": "Ringer Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 749,
+  "query": "men red t-shirt"
+ },
+ {
+  "id": 10,
+  "image": "/images/10.jpg",
+  "fallback": "/images/10.svg",
+  "name": "Longline Tee",
+  "cat": "tshirt",
+  "icon": "tshirt",
+  "price": 899,
+  "query": "men green t-shirt"
+ },
+ {
+  "id": 11,
+  "image": "/images/11.jpg",
+  "fallback": "/images/11.svg",
+  "name": "Linen Resort Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1499,
+  "tag": "New",
+  "query": "men linen shirt"
+ },
+ {
+  "id": 12,
+  "image": "/images/12.jpg",
+  "fallback": "/images/12.svg",
+  "name": "Oxford Check Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1299,
+  "query": "men blue check shirt"
+ },
+ {
+  "id": 13,
+  "image": "/images/13.jpg",
+  "fallback": "/images/13.svg",
+  "name": "Classic White Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1399,
+  "tag": "Hot",
+  "query": "men white dress shirt"
+ },
+ {
+  "id": 14,
+  "image": "/images/14.jpg",
+  "fallback": "/images/14.svg",
+  "name": "Denim Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1599,
+  "query": "men denim shirt"
+ },
+ {
+  "id": 15,
+  "image": "/images/15.jpg",
+  "fallback": "/images/15.svg",
+  "name": "Black Mandarin Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1499,
+  "query": "men black shirt"
+ },
+ {
+  "id": 16,
+  "image": "/images/16.jpg",
+  "fallback": "/images/16.svg",
+  "name": "Flannel Check Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1699,
+  "tag": "New",
+  "query": "men flannel shirt"
+ },
+ {
+  "id": 17,
+  "image": "/images/17.jpg",
+  "fallback": "/images/17.svg",
+  "name": "Olive Overshirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1899,
+  "query": "men olive overshirt shirt"
+ },
+ {
+  "id": 18,
+  "image": "/images/18.jpg",
+  "fallback": "/images/18.svg",
+  "name": "Striped Business Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1399,
+  "query": "men striped shirt"
+ },
+ {
+  "id": 19,
+  "image": "/images/19.jpg",
+  "fallback": "/images/19.svg",
+  "name": "Cuban Collar Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1299,
+  "query": "men cuban collar shirt"
+ },
+ {
+  "id": 20,
+  "image": "/images/20.jpg",
+  "fallback": "/images/20.svg",
+  "name": "Chambray Work Shirt",
+  "cat": "shirt",
+  "icon": "shirt",
+  "price": 1499,
+  "query": "men chambray shirt"
+ },
+ {
+  "id": 21,
+  "image": "/images/21.jpg",
+  "fallback": "/images/21.svg",
+  "name": "Steel Chrono 42",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 3499,
+  "tag": "Hot",
+  "query": "men steel chronograph wrist watch"
+ },
+ {
+  "id": 22,
+  "image": "/images/22.jpg",
+  "fallback": "/images/22.svg",
+  "name": "Canvas Field Watch",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 2299,
+  "query": "men field canvas strap wrist watch"
+ },
+ {
+  "id": 23,
+  "image": "/images/23.jpg",
+  "fallback": "/images/23.svg",
+  "name": "Black Dial Bracelet",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 3999,
+  "tag": "New",
+  "query": "men black dial steel wrist watch"
+ },
+ {
+  "id": 24,
+  "image": "/images/24.jpg",
+  "fallback": "/images/24.svg",
+  "name": "Minimal Leather Watch",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 2799,
+  "query": "men minimalist leather wrist watch"
+ },
+ {
+  "id": 25,
+  "image": "/images/25.jpg",
+  "fallback": "/images/25.svg",
+  "name": "Tan Leather Chrono",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 3299,
+  "query": "men chronograph leather wrist watch"
+ },
+ {
+  "id": 26,
+  "image": "/images/26.jpg",
+  "fallback": "/images/26.svg",
+  "name": "Navy Diver",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 4299,
+  "tag": "New",
+  "query": "men diver wrist watch"
+ },
+ {
+  "id": 27,
+  "image": "/images/27.jpg",
+  "fallback": "/images/27.svg",
+  "name": "Green Dial Steel",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 3799,
+  "query": "men green dial wrist watch"
+ },
+ {
+  "id": 28,
+  "image": "/images/28.jpg",
+  "fallback": "/images/28.svg",
+  "name": "Black Leather Sport",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 2599,
+  "query": "men black sport wrist watch"
+ },
+ {
+  "id": 29,
+  "image": "/images/29.jpg",
+  "fallback": "/images/29.svg",
+  "name": "White Dial Steel",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 3199,
+  "query": "men white dial steel wrist watch"
+ },
+ {
+  "id": 30,
+  "image": "/images/30.jpg",
+  "fallback": "/images/30.svg",
+  "name": "Pilot Canvas Watch",
+  "cat": "watch",
+  "icon": "watch",
+  "price": 2499,
+  "query": "men pilot wrist watch"
+ },
+ {
+  "id": 31,
+  "image": "/images/31.jpg",
+  "fallback": "/images/31.svg",
+  "name": "Court Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 2999,
+  "query": "men white court sneakers"
+ },
+ {
+  "id": 32,
+  "image": "/images/32.jpg",
+  "fallback": "/images/32.svg",
+  "name": "Chunky Runner",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3799,
+  "tag": "New",
+  "query": "men chunky running sneakers"
+ },
+ {
+  "id": 33,
+  "image": "/images/33.jpg",
+  "fallback": "/images/33.svg",
+  "name": "Black Leather Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3499,
+  "tag": "Hot",
+  "query": "men black leather sneakers"
+ },
+ {
+  "id": 34,
+  "image": "/images/34.jpg",
+  "fallback": "/images/34.svg",
+  "name": "Canvas Low Top",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 1799,
+  "query": "men canvas low top sneakers"
+ },
+ {
+  "id": 35,
+  "image": "/images/35.jpg",
+  "fallback": "/images/35.svg",
+  "name": "Retro Runner",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3299,
+  "query": "men retro running sneakers"
+ },
+ {
+  "id": 36,
+  "image": "/images/36.jpg",
+  "fallback": "/images/36.svg",
+  "name": "Tan Leather Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3699,
+  "query": "men tan leather sneakers"
+ },
+ {
+  "id": 37,
+  "image": "/images/37.jpg",
+  "fallback": "/images/37.svg",
+  "name": "Navy Suede Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3399,
+  "tag": "New",
+  "query": "men navy suede sneakers"
+ },
+ {
+  "id": 38,
+  "image": "/images/38.jpg",
+  "fallback": "/images/38.svg",
+  "name": "Grey Trainer",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 2899,
+  "query": "men grey training sneakers"
+ },
+ {
+  "id": 39,
+  "image": "/images/39.jpg",
+  "fallback": "/images/39.svg",
+  "name": "All-Black Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3199,
+  "query": "men all black sneakers"
+ },
+ {
+  "id": 40,
+  "image": "/images/40.jpg",
+  "fallback": "/images/40.svg",
+  "name": "White Platform Sneaker",
+  "cat": "shoe",
+  "icon": "shoe",
+  "price": 3599,
+  "query": "men white platform sneakers"
+ },
+ {
+  "id": 41,
+  "image": "/images/41.jpg",
+  "fallback": "/images/41.svg",
+  "name": "Cuban Link Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 1199,
+  "tag": "Hot",
+  "query": "men gold cuban link chain necklace"
+ },
+ {
+  "id": 42,
+  "image": "/images/42.jpg",
+  "fallback": "/images/42.svg",
+  "name": "Silver Dog-Tag Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 799,
+  "query": "men silver dog tag chain necklace"
+ },
+ {
+  "id": 43,
+  "image": "/images/43.jpg",
+  "fallback": "/images/43.svg",
+  "name": "Silver Cuban Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 1099,
+  "query": "men silver cuban link chain necklace"
+ },
+ {
+  "id": 44,
+  "image": "/images/44.jpg",
+  "fallback": "/images/44.svg",
+  "name": "Gold Dog-Tag Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 899,
+  "tag": "New",
+  "query": "men gold pendant chain necklace"
+ },
+ {
+  "id": 45,
+  "image": "/images/45.jpg",
+  "fallback": "/images/45.svg",
+  "name": "Chunky Gold Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 1499,
+  "query": "men chunky gold chain necklace"
+ },
+ {
+  "id": 46,
+  "image": "/images/46.jpg",
+  "fallback": "/images/46.svg",
+  "name": "Fine Gold Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 699,
+  "query": "men thin gold chain necklace"
+ },
+ {
+  "id": 47,
+  "image": "/images/47.jpg",
+  "fallback": "/images/47.svg",
+  "name": "Chunky Silver Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 1399,
+  "query": "men chunky silver chain necklace"
+ },
+ {
+  "id": 48,
+  "image": "/images/48.jpg",
+  "fallback": "/images/48.svg",
+  "name": "Fine Silver Chain",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 649,
+  "tag": "New",
+  "query": "men thin silver chain necklace"
+ },
+ {
+  "id": 49,
+  "image": "/images/49.jpg",
+  "fallback": "/images/49.svg",
+  "name": "Mini Cuban Gold",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 899,
+  "query": "men small gold chain necklace"
+ },
+ {
+  "id": 50,
+  "image": "/images/50.jpg",
+  "fallback": "/images/50.svg",
+  "name": "Mini Cuban Silver",
+  "cat": "chain",
+  "icon": "chain",
+  "price": 849,
+  "query": "men small silver chain necklace"
+ },
+ {
+  "id": 51,
+  "image": "/images/51.jpg",
+  "fallback": "/images/51.svg",
+  "name": "Washed Dad Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 599,
+  "query": "khaki dad cap"
+ },
+ {
+  "id": 52,
+  "image": "/images/52.jpg",
+  "fallback": "/images/52.svg",
+  "name": "Trucker Mesh Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 649,
+  "tag": "New",
+  "query": "navy trucker cap"
+ },
+ {
+  "id": 53,
+  "image": "/images/53.jpg",
+  "fallback": "/images/53.svg",
+  "name": "Black Dad Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 649,
+  "query": "black cap"
+ },
+ {
+  "id": 54,
+  "image": "/images/54.jpg",
+  "fallback": "/images/54.svg",
+  "name": "White Baseball Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 599,
+  "query": "white baseball cap"
+ },
+ {
+  "id": 55,
+  "image": "/images/55.jpg",
+  "fallback": "/images/55.svg",
+  "name": "Olive Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 629,
+  "query": "olive green cap"
+ },
+ {
+  "id": 56,
+  "image": "/images/56.jpg",
+  "fallback": "/images/56.svg",
+  "name": "Maroon Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 629,
+  "query": "maroon cap"
+ },
+ {
+  "id": 57,
+  "image": "/images/57.jpg",
+  "fallback": "/images/57.svg",
+  "name": "Grey Snapback",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 699,
+  "tag": "Hot",
+  "query": "grey snapback cap"
+ },
+ {
+  "id": 58,
+  "image": "/images/58.jpg",
+  "fallback": "/images/58.svg",
+  "name": "Navy Dad Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 649,
+  "query": "navy cap"
+ },
+ {
+  "id": 59,
+  "image": "/images/59.jpg",
+  "fallback": "/images/59.svg",
+  "name": "Black Trucker Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 699,
+  "tag": "New",
+  "query": "black trucker cap"
+ },
+ {
+  "id": 60,
+  "image": "/images/60.jpg",
+  "fallback": "/images/60.svg",
+  "name": "Camel Cap",
+  "cat": "cap",
+  "icon": "cap",
+  "price": 649,
+  "query": "camel brown cap"
+ },
+ {
+  "id": 61,
+  "image": "/images/61.jpg",
+  "fallback": "/images/61.svg",
+  "name": "Matte Aviators",
+  "cat": "extra",
+  "icon": "glasses",
+  "price": 999,
+  "query": "men aviator sunglasses"
+ },
+ {
+  "id": 62,
+  "image": "/images/62.jpg",
+  "fallback": "/images/62.svg",
+  "name": "Gold Aviators",
+  "cat": "extra",
+  "icon": "glasses",
+  "price": 1299,
+  "tag": "New",
+  "query": "gold aviator sunglasses"
+ },
+ {
+  "id": 63,
+  "image": "/images/63.jpg",
+  "fallback": "/images/63.svg",
+  "name": "Tortoise Shades",
+  "cat": "extra",
+  "icon": "glasses",
+  "price": 1199,
+  "query": "tortoise sunglasses men"
+ },
+ {
+  "id": 64,
+  "image": "/images/64.jpg",
+  "fallback": "/images/64.svg",
+  "name": "Braided Belt",
+  "cat": "extra",
+  "icon": "belt",
+  "price": 699,
+  "query": "men braided belt"
+ },
+ {
+  "id": 65,
+  "image": "/images/65.jpg",
+  "fallback": "/images/65.svg",
+  "name": "Black Leather Belt",
+  "cat": "extra",
+  "icon": "belt",
+  "price": 899,
+  "tag": "Hot",
+  "query": "men black leather belt"
+ },
+ {
+  "id": 66,
+  "image": "/images/66.jpg",
+  "fallback": "/images/66.svg",
+  "name": "Slim Card Wallet",
+  "cat": "extra",
+  "icon": "wallet",
+  "price": 899,
+  "query": "men slim card wallet"
+ },
+ {
+  "id": 67,
+  "image": "/images/67.jpg",
+  "fallback": "/images/67.svg",
+  "name": "Black Bifold Wallet",
+  "cat": "extra",
+  "icon": "wallet",
+  "price": 1099,
+  "query": "men black leather wallet"
+ },
+ {
+  "id": 68,
+  "image": "/images/68.jpg",
+  "fallback": "/images/68.svg",
+  "name": "Navy Card Holder",
+  "cat": "extra",
+  "icon": "wallet",
+  "price": 799,
+  "tag": "New",
+  "query": "men navy card holder"
+ }
+];
