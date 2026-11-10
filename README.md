@@ -324,4 +324,4 @@ Real problems hit while building this project, and their fixes:
 
 ---
 
-_This is a demo store built to practice and showcase CI/CD. Payments are not connected._
+_This is a demo store built to practice and showcase CI/CD. Payments are not connected._ .
