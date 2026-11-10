@@ -96,11 +96,19 @@ Everything below was captured from the real deployment on AWS EC2, not from a lo
 
 ### 4. Jenkins pipeline stage view
 
-**What this shows:** The Jenkins job page with every stage (Install, Test, Docker Build, Deploy) passing in green, along with build numbers and timings.
+**What this shows:** A single successful build (#12) with every stage passing in green: Checkout SCM, Tool Install, Install, Test, Docker Build and Deploy. The Deploy stage is expanded and shows the exact `docker run` command Jenkins executed.
 
 **Why it matters:** This is the main proof of CI/CD. Each commit goes through the same automated stages, and any failure stops the deployment.
 
 ![Jenkins stage view](docs/screenshots/04-jenkins-stage-view.png)
+
+### 4b. Build history: failures and fixes
+
+**What this shows:** The job's build history. Builds #1 to #4 failed (red) while I fixed a missing `package-lock.json`, a Dockerfile `npm ci` error and a port conflict on the server. Builds #5 onwards pass every stage (green) from checkout to deploy.
+
+**Why it matters:** It shows the real debugging process behind the pipeline, not just the final result. The failed stages stop the pipeline early, which is exactly what a CI/CD gate should do. The fixes are documented in the [Troubleshooting](#troubleshooting) section.
+
+![Jenkins build history](docs/screenshots/04b-build-history.png)
 
 ### 5. Jenkins job configuration
 
