@@ -21,6 +21,7 @@ The app itself is **STRUT**, a men's accessories storefront (68 products across 
 
 - [What this project demonstrates](#what-this-project-demonstrates)
 - [Architecture](#architecture)
+- [Screenshots](#screenshots)
 - [Tech stack](#tech-stack)
 - [CI/CD pipeline](#cicd-pipeline)
 - [Application features](#application-features)
@@ -65,6 +66,92 @@ flowchart LR
     User[Browser] -->|http EC2-IP:3001| C
 ```
 
+## Screenshots
+
+Everything below was captured from the real deployment on AWS EC2, not from a local machine.
+
+### 1. Homepage, live on AWS EC2
+
+**What this shows:** The STRUT storefront opened in a browser through the EC2 instance's public IP on port 3001. The page is served by the Express app running inside a Docker container.
+
+**Why it matters:** It proves the whole chain works: code on GitHub, built by Jenkins, running in Docker, reachable from the internet.
+
+![Homepage](docs/screenshots/01-homepage.png)
+
+### 2. Product catalogue
+
+**What this shows:** The product grid with a category filter applied. Product data is fetched from the `/api/products` endpoint of the Express server and rendered in the browser.
+
+**Why it matters:** It shows the application side of the project: a working REST endpoint feeding a responsive frontend.
+
+![Product grid](docs/screenshots/02-product-grid.png)
+
+### 3. Shopping cart
+
+**What this shows:** The cart drawer with items added, quantity controls and a running total, all handled in vanilla JavaScript.
+
+**Why it matters:** It demonstrates client-side state handling without any frontend framework.
+
+![Cart drawer](docs/screenshots/03-cart.png)
+
+### 4. Jenkins pipeline stage view
+
+**What this shows:** The Jenkins job page with every stage (Install, Test, Docker Build, Deploy) passing in green, along with build numbers and timings.
+
+**Why it matters:** This is the main proof of CI/CD. Each commit goes through the same automated stages, and any failure stops the deployment.
+
+![Jenkins stage view](docs/screenshots/04-jenkins-stage-view.png)
+
+### 5. Jenkins job configuration
+
+**What this shows:** The Pipeline section of the job: Definition set to *Pipeline script from SCM*, Git as the SCM, this repository as the source, branch `main`, and `Jenkinsfile` as the script path.
+
+**Why it matters:** It shows the pipeline is defined as code in the repository. Changing the pipeline means committing to Git, not clicking around in the Jenkins UI.
+
+![Jenkins job configuration](docs/screenshots/05-jenkins-job-config.png)
+
+### 6. Build console output
+
+**What this shows:** The end of a successful build log, finishing with `Finished: SUCCESS`. Near the top, the log line `Obtained Jenkinsfile from git` confirms the pipeline came from the repo.
+
+**Why it matters:** The console log is the audit trail of a build. It lets anyone see exactly what ran and debug it when something fails.
+
+![Console output](docs/screenshots/06-console-output.png)
+
+### 7. Automated tests
+
+**What this shows:** The Test stage output showing the Jest and Supertest suite passing (health check, product list, category filter, homepage, product count per category).
+
+**Why it matters:** Tests run before the Docker build. If one fails, the image is never built and nothing is deployed, so broken code cannot reach the server.
+
+![Test results](docs/screenshots/07-test-results.png)
+
+### 8. Running container on EC2
+
+**What this shows:** `docker ps` on the EC2 instance, showing the `strut` container as `Up` and `(healthy)`, with host port 3001 mapped to container port 3000.
+
+**Why it matters:** It confirms the deployed container is alive and that the Docker `HEALTHCHECK` against `/health` is passing.
+
+![Docker ps output](docs/screenshots/08-docker-ps.png)
+
+### 9. AWS Security Group
+
+**What this shows:** The inbound rules of the EC2 Security Group, with SSH, Jenkins (8080) and the application port opened to specific sources only.
+
+**Why it matters:** It shows the infrastructure is locked down on purpose and not left open to the whole internet.
+
+![Security group rules](docs/screenshots/09-security-group.png)
+
+### 10. Automatic build after a commit
+
+**What this shows:** A build that Jenkins started on its own after a push to GitHub, with no one clicking *Build Now*. The build history shows the trigger as an SCM change.
+
+**Why it matters:** This is the core idea of continuous delivery: push code, and it is tested and deployed automatically.
+
+![Auto-triggered build](docs/screenshots/10-auto-trigger.png)
+
+---
+
 ## Tech stack
 
 - **Application:** Node.js 18, Express, HTML/CSS/vanilla JS
@@ -95,8 +182,6 @@ docker rm -f strut
 docker run -d --name strut --restart unless-stopped -p 3001:3000 strut-store:<previous-build-number>
 ```
 
-![Jenkins pipeline stage view](docs/screenshots/04-jenkins-stage-view.png)
-
 ## Application features
 
 - Product catalogue with category filters (shirts, T-shirts, watches, shoes, chains, caps, accessories)
@@ -104,8 +189,6 @@ docker run -d --name strut --restart unless-stopped -p 3001:3000 strut-store:<pr
 - Responsive layout (desktop, tablet, mobile)
 - Image fallback: if a product photo is missing, an SVG placeholder is shown
 - Accessible markup (focus states, ARIA labels, reduced-motion support)
-
-![Product grid](docs/screenshots/02-product-grid.png)
 
 ## API reference
 
@@ -194,8 +277,6 @@ sudo usermod -aG docker jenkins && sudo systemctl restart jenkins
   - Script Path: `Jenkinsfile`
 
 **5. Run it.** Click **Build Now** once, then push a commit and watch Jenkins build it automatically.
-
-![Jenkins job configuration](docs/screenshots/05-jenkins-job-config.png)
 
 ## Security notes
 
